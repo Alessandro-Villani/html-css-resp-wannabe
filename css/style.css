@@ -137,3 +137,25 @@ img {
     }
 }
 
+/* ***** WIDTH 480 *****  */
+
+@media screen and (max-width:480px) {
+
+    .container{
+        padding: 0 50px;
+    }
+
+    .row{
+        flex-direction: column;
+        align-items: center;
+        gap: 50px;
+    }
+
+    .lessons .col, .steps .col, .col.col-left, .col.col-right{
+        width: 100%;
+    }
+
+    p{
+        font-size: 1.2rem;
+    }
+}
