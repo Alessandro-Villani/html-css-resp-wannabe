@@ -136,9 +136,9 @@ img {
     }
 }
 
-/* ***** MAX WIDTH 480 *****  */
+/* ***** MAX WIDTH 576 *****  */
 
-@media screen and (max-width:480px) {
+@media screen and (max-width:576px) {
 
     .steps{
         margin-bottom: 0;
